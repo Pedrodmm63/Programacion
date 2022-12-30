@@ -16,7 +16,7 @@ public class Start {
 		
 		robot2.name = "Cerberus";
 		robot2.puntosVida = 100;
-		robot2.ataque = 70;
+		robot2.ataque = 60;
 		robot2.defensa = 48;
 		
 		System.out.println(robot1);

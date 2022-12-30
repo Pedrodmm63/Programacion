@@ -3,7 +3,7 @@ package robot;
 public class Robot {
 
 	public String name;
-	public double puntosVida;
+	public int puntosVida;
 	public int ataque;
 	public int defensa;
 	
@@ -13,7 +13,7 @@ public class Robot {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public double getPuntosVida() {
+	public int getPuntosVida() {
 		return puntosVida;
 	}
 	public void setPuntosVida(int puntosVida) {
