@@ -2,7 +2,7 @@ package robot;
 
 public class Start {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
 		Robot robot1 = new Robot("Terminator");
@@ -13,7 +13,7 @@ public class Start {
 		
 		System.out.println(robot2);
 		
-		
+		robot1.Luchar(robot2);
 		
 	}
 
